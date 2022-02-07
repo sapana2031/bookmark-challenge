@@ -14,13 +14,13 @@ class BookmarkManager < Sinatra::Base
  end
 
  get '/bookmarks' do
-   bookmarks = [
+   @bookmarks = [
       "http://www.makersacademy.com",
       "http://www.destroyallsoftware.com",
       "http://www.google.com"
       ]
     
-    bookmarks.join
+   erb :'bookmarks/index'
  end
 
 
