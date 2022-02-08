@@ -4,10 +4,11 @@ source "https://rubygems.org"
 
 # gem "rails"
   gem 'sinatra'
-  gem 'capybara'
-  gem 'rspec'
+  gem 'capybara', group: :test
+  gem 'rspec', group: :test
   gem 'webrick'
   gem 'launchy'
   gem 'sinatra-reloader'
+  gem 'pg'
 
 
