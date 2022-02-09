@@ -1,4 +1,3 @@
-# in spec/features/viewing_bookmarks_spec.rb
 require 'pg'
 
 feature 'Viewing bookmarks' do
